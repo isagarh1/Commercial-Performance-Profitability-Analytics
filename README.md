@@ -154,15 +154,31 @@ FROM (
 - Customer demographics showed different purchasing patterns across age groups and genders.
 - Some sales representatives generated strong revenue but weaker profit contribution.
 
+## Business Recommendations
+- Pricing Strategy :
+High discount levels showed a negative correlation with profit margin.
+Reduce aggressive discounting on high-demand products.
+Implement targeted promotions instead of blanket discounts.
+- Product Portfolio Optimization :
+Increase focus on Home & Kitchen products due to strong profitability.
+Review low-margin categories for pricing adjustments or cost reduction opportunities.
+- Sales Team Performance : 
+Evaluate representatives based on profit contribution rather than revenue alone.
+Replicate strategies used by top-performing profit-generating sales representatives.
+- Regional Expansion :
+The UK generated the highest revenue.
+The US delivered the strongest profitability.
+Future growth initiatives should prioritize markets with stronger margin performance. 
+
 
 ## Dashboard Preview
-Overview Dashboard
+Executive Overview
 <img width="1300" height="711" alt="Executive overview" src="https://github.com/user-attachments/assets/604cb48f-2561-4278-9c49-080bc52e1216" />
 
-Customer Behavior
+Customer Analytics
 <img width="1277" height="712" alt="Customer Behavior" src="https://github.com/user-attachments/assets/f91cb0d4-d095-4c07-8179-8cb8b50bfa07" />
 
-Sales Performance
+Sales & Regional Performance
 <img width="1285" height="705" alt="Sales Reps and Regional" src="https://github.com/user-attachments/assets/f946d108-318a-445f-a253-c55a574840ef" />
 
 
