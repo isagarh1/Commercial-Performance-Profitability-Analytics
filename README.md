@@ -1,4 +1,4 @@
-# Commercial Performance & Profitability Analytics
+# Commercial Performance & Profitability Drivers Analysis
 
 An end-to-end Business Intelligence project built using SQL and Power BI to analyze revenue performance, profitability drivers, discount effectiveness, regional contribution, category performance, and sales representative efficiency. across global markets.
 
