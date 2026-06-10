@@ -1,6 +1,6 @@
 # Commercial Performance & Profitability Analytics
 
-An end-to-end Business Intelligence project built using SQL and Power BI to analyze revenue performance, profitability trends, customer behavior, regional contribution, and operational efficiency across global markets.
+An end-to-end Business Intelligence project built using SQL and Power BI to analyze revenue performance, profitability drivers, discount effectiveness, regional contribution, category performance, and sales representative efficiency. across global markets.
 
 The goal of this project was not only to track sales performance, but to identify the business factors affecting profitability and operational decision-making.
 
@@ -10,7 +10,7 @@ The goal of this project was not only to track sales performance, but to identif
 
 Businesses often focus heavily on revenue growth without fully understanding whether that growth translates into sustainable profitability.
 
-This project analyzes how factors such as discounts, customer demographics, product categories, regional sales performance, and sales representative efficiency impact overall business profitability.
+This project investigates how discounts, product categories, regional performance, and sales representative effectiveness influence overall profitability and commercial performance.
 
 The analysis was performed using SQL for data querying and KPI generation, followed by Power BI for dashboard development and business visualization.
 
@@ -136,49 +136,48 @@ FROM (
 ) revenue_trend;
 ```
 ## Dashboard Features
-- The Power BI dashboard includes:
-- Revenue & Profit KPI Cards
-- Country-wise Performance Analysis
-- Product Category Analysis
-- Customer Demographic Insights
-- Payment Method Analysis
-- Sales Representative Ranking
-- Monthly Revenue Trends
-- Profitability Analysis
+- Executive KPI Overview
+- Monthly Revenue Trend Analysis
+- Country Performance Analysis
+- Category Profitability Analysis
+- Discount Impact Analysis
+- Sales Representative Efficiency Analysis
+- Profitability Driver Analysis
 
 ## Key Insights
 - The UK generated the highest revenue contribution.
-- The US achieved the strongest profitability performance.
-- Home & Kitchen was the highest-performing category.
-- Higher discount levels reduced average profitability.
-- Customer demographics showed different purchasing patterns across age groups and genders.
-- Some sales representatives generated strong revenue but weaker profit contribution.
+- The US achieved the highest profit margin.
+- Home & Kitchen generated the highest total profit.
+- Higher discount levels were associated with lower profit margins.
+- Significant profitability differences existed across sales representatives.
+- Sales representative efficiency had a greater impact on profitability than demographic factors.
 
 ## Business Recommendations
-- Pricing Strategy :
-High discount levels showed a negative correlation with profit margin.
-Reduce aggressive discounting on high-demand products.
-Implement targeted promotions instead of blanket discounts.
-- Product Portfolio Optimization :
-Increase focus on Home & Kitchen products due to strong profitability.
-Review low-margin categories for pricing adjustments or cost reduction opportunities.
-- Sales Team Performance : 
-Evaluate representatives based on profit contribution rather than revenue alone.
-Replicate strategies used by top-performing profit-generating sales representatives.
-- Regional Expansion :
-The UK generated the highest revenue.
-The US delivered the strongest profitability.
-Future growth initiatives should prioritize markets with stronger margin performance. 
+### 1. Optimize Discount Strategy
+- Higher discount levels were associated with lower profit margins.
+- The business should reduce excessive discounting and implement targeted promotions to improve profitability while maintaining sales performance.
+### 2. Strengthen Sales Performance Management
+- Significant differences were observed in profit margin and profit per transaction across sales representatives. 
+- Performance evaluation should incorporate profitability-based KPIs alongside revenue targets to encourage sustainable sales growth.
+### 3. Prioritize High-Profit Product Categories
+- Product categories contributing the highest overall profit should receive greater focus in inventory planning, marketing campaigns, and growth initiatives to maximize business returns.
+### 4. Focus on Profitable Market Expansion
+- While some countries generated higher revenue, others achieved stronger profit margins. 
+- Future expansion strategies should balance revenue growth with profitability performance to ensure long-term commercial success.
+### 5. Implement Profitability-Focused Monitoring
+- Business performance should be monitored using Revenue, Profit Margin, Discount Levels, and Profit per Transaction together rather than relying solely on revenue growth. 
+- This provides a more comprehensive view of commercial performance and supports better decision-making.
 
 
 ## Dashboard Preview
 Executive Overview
-<img width="1300" height="711" alt="Executive overview" src="https://github.com/user-attachments/assets/604cb48f-2561-4278-9c49-080bc52e1216" />
+<img width="1307" height="722" alt="Excecutive Overview" src="https://github.com/user-attachments/assets/4c058e64-47b4-45d8-97d3-c63851b9692e" />
 
-Customer Analytics
-<img width="1277" height="712" alt="Customer Behavior" src="https://github.com/user-attachments/assets/f91cb0d4-d095-4c07-8179-8cb8b50bfa07" />
+Profitability Drivers Analytics
+<img width="1310" height="723" alt="Profitability drivers" src="https://github.com/user-attachments/assets/c55e5d97-2b25-439b-a5df-69ffd9c5bb76" />
+ 
 
-Sales & Regional Performance
-<img width="1285" height="705" alt="Sales Reps and Regional" src="https://github.com/user-attachments/assets/f946d108-318a-445f-a253-c55a574840ef" />
+
+
 
 
